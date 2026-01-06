@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*==========================
+       header start here
+  =========================*/
+
+header {
+    width: 100%;
+    height: 550px;
+    background: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* navbar styling */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+header nav div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header nav .nav-links a {
+    margin-left: 40px;
+}
+
+/* header content styling */
+.header-content {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 600px;
+    height: 150px;
+}
+
+header .header-content h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+header .header-content p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+header .header-content a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid red;
+}
+
+/* =============================
+    latest products start here
+   ============================= */
+
+.latest-products {
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 20px 0;
+}
+
+.latest-products-headings {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.latest-products-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.latest-products-row-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.latest-products-container .latest-products-row-1 .products-card {
+    width: 300px;
+    height: 300px;
+}
+
+.product-img-1{
+    background: url("../img/p2\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-2{
+    background: url("../img/p2\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-3{
+    background: url("../img/p2\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-4{
+    background: url("../img/p2\ \(4\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-4{
+    background: url("../img/p2\ \(5\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-5{
+    background: url("../img/p2\ \(6\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-6{
+    background: url("../img/p2\ \(7\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-7{
+    background: url("../img/p2\ \(8\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-8{
+    background: url("../img/p2\ \(12\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-9{
+    background: url("../img/p2\ \(13\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-10{
+    background: url("../img/p2\ \(4\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+
+.latest-product-btn {
+    width: 190px;
+    padding: 15px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #e04617;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+/* =======================
+        about-us
+    ===================== */
+ 
+.about-us-container {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.about-us-container .section-img {
+    width: 550px;
+    height: 400px;
+    margin: 30px;
+    background: url("../img/p2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-container .h-details {
+   height: 300px;
+   width: 600px; 
+   margin: 30px; 
+   padding: 40px; 
+}
+
+.about-us-container .h-details h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.about-us-container .h-details h1 {
+    font-size: 50px;
+    padding-bottom: 6px;
+}
+
+.about-us-container .h-details p {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.about-us-container .h-details .section-img-btn {
+    width: 170px;
+    margin-top: 40px;
+    padding: 15px 0;
+    font-size: 16px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #ea662e;
+    cursor: pointer;
+} 
+
+/* =====================
+        discount-div 
+    ==================== */
+
+ .discount-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.discount-img-1 {
+    width: 55%;
+    height: 420px;
+    background: url("../img/p2\ \(10\).jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: white;
+}
+
+.discount-img-2 {
+    width: 40%;
+    height: 200px;
+    background: url("../img/p2\ \(11\).jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -420px;
+    margin-left: 750px;
+    color: white;
+}
+
+.discount-img-3 {
+    width: 40%;
+    height: 200px;
+    background: url("../img/p2\ \(9\).jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-left: 750px;
+    color: white;
+
+}
+
+.parts-img-1 h1 {
+    padding-top: 450px;
+    margin-left: 40px;
+}
+
+.parts-img-1 h1 {
+    padding-top: 450px;
+    margin-left: 40px;
+}
+
+.parts-img-1 h1 {
+    padding-top: 450px;
+    margin-left: 40px;
+}
+
+.discount-img-1 h1 {
+    font-size: 50px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.discount-img-2 h1 {
+    font-size: 35px;
+    margin-left: 270px;
+    padding-top: 90px;
+}
+
+.discount-img-3 h1 {
+    font-size: 35px;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.discount-img-1 button {
+    width: 150px;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #e08a5f;
+    background-color: transparent;
+    border: 1px solid #e08a5f;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.discount-img-2 button {
+    width: 150px;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #e08a5f;
+    background-color: transparent;
+    border: 1px solid #e08a5f;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 15px;
+
+}
+
+.discount-img-3 button {
+    width: 150px;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #e08a5f;
+    background-color: transparent;
+    border: 1px solid #e08a5f;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;
+
+} 
+
+/* ======================= 
+     latest fron blog
+ ===========================*/
+
+ .latest-blog {
+    width: 80%;
+    height: 800px;
+    background-color: white;
+    padding: 20px;
+    
+
+}
+
+.latest-content h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.latest-blog-images {
+    display: flex;
+    gap: 30px;
+}
+
+
+.latest-blog-details {
+    width: 600px;
+    height: 200px;
+    background-color: #f1f2f3;
+
+}
+
+.latest-blog-details h1 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.latest-blog-details p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.latest-blog-details button {
+    margin-top: 20px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 10px 0;
+} 
+
+/* ==========================
+        testimonials
+    ========================*/
+
+.testimonial-container {
+    width: 100%;
+    height: 600px;   
+} 
+
+.testimonial-content h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.testimonial-section{
+    width: 750px;
+    height: 400px;
+    background-color: black;
+    border-radius: 40px;
+    margin-left: 220px;
+    padding: 40px;
+}
+.samantha-circle-img{
+    width: 200px;
+    height: 200px;
+   background: url("../img/client\ \(1\).jpg");
+    background-position: cover;
+    background-size: cover;
+    border-radius: 150px;
+    margin-left: 270px;   
+}
+
+.testimonial-details{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-details h1{
+    color: #d2ad0a;
+    padding: 10px;
+}
+.testimonial-details p{
+    font-size: 20px;
+}
+/* ================
+        footer 
+    ===============*/
+.footer-container{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+footer form span input {
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+footer form span a{
+    background: #000;
+    color: white;
+    padding: 21px;
+    border: 1px solid white;
+}
+
+footer form span:nth-of-type(2) a:nth-of-type(1){
+  margin-left: 200px;
+}
+
+
+
+ .footer-section {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.footer-section .footer-details .footer-detail{
+    width: 300px;
+    height: 300px;
+    
+} 
+
+.Menu h1{
+   text-align: center;
+}
+
+.Menu a{
+   display: flex;
+   text-decoration: none;
+   font-size: 20px;
+   margin-left: 110px;
+   padding: 10px;
+   color: white;
+}
+
+.insta-img-1{
+    width: 80px;
+    height: 60px;
+    background: url("../img/p2\ \(8\).jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: -90px;
+    
+}
+
+.insta-img-2{
+    width: 80px;
+    height: 60px;
+    background: url("../img/p2\ \(4\).jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: -90px;
+    
+}
+
+.insta-content{
+    font-size: 25px;
+    margin-top: -50px; 
+}
+
+.About-us h1{
+    margin-left: 10px;
+}
+
+.About-us p{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.Contact-us h2{
+    margin-top: 10px;
+}
+
+
+.html-design{
+    text-align: center;
+}
